@@ -5,7 +5,7 @@ export default function Project() {
   return (
     <section id="projects" className="py-24 px-6 relative pt-32">
       <div className="max-w-4xl mx-auto">
-        <motion.h2 
+        <motion.h2
           className="text-3xl md:text-4xl font-bold mb-12 flex items-center gap-4"
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -15,9 +15,9 @@ export default function Project() {
           <span className="w-12 h-[2px] bg-accentPurple"></span>
           Featured Projects
         </motion.h2>
-        
+
         <div className="flex flex-col gap-8">
-          <motion.div 
+          <motion.div
             className="group bg-gradient-to-br from-white/10 to-white/5 border border-white/10 rounded-3xl overflow-hidden hover:border-accent/50 transition-colors duration-500 flex flex-col md:flex-row"
             initial={{ opacity: 0, scale: 0.95, y: 40 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
@@ -30,9 +30,9 @@ export default function Project() {
                 A web app designed to track environmental impact and promote sustainable habits. Helps users calculate their carbon footprint and find actionable ways to reduce it while exploring a simple interface.
               </p>
               <div>
-                <a 
-                  href="https://github.com/Nourin333/Eco-tracker" 
-                  target="_blank" 
+                <a
+                  href="https://github.com/Nourin333/Eco-tracker"
+                  target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-full transition-colors border border-white/10"
                 >
@@ -43,7 +43,7 @@ export default function Project() {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             className="group bg-gradient-to-br from-white/10 to-white/5 border border-white/10 rounded-3xl overflow-hidden hover:border-accent/50 transition-colors duration-500 flex flex-col md:flex-row"
             initial={{ opacity: 0, scale: 0.95, y: 40 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
@@ -56,14 +56,14 @@ export default function Project() {
                 A clean, reliable application designed to provide essential emergency SOS logging capabilities entirely offline. It ensures critical data is securely captured and stored without requiring an internet connection.
               </p>
               <div>
-                <a 
-                  href="https://github.com/Nouriin/offline-sos-logger" 
-                  target="_blank" 
+                <a
+                  href="https://github.com/Nouriin/offline-sos-logger"
+                  target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-full transition-colors border border-white/10"
                 >
                   <Github size={18} />
-                  View My Work
+                  View Code
                 </a>
               </div>
             </div>
