@@ -8,7 +8,7 @@ export default function Achievements() {
       subtitle: "Saintgits College of Engineering",
       icon: <Trophy size={32} className="text-yellow-400" />,
       description: "Participated in a grueling 36-hour national-level hackathon under the theme 'Engineering Resilience: Designing for Uncertainty'. Innovated and developed a resilient technological solution under significant time constraints, pitching the final working prototype to an expert panel.",
-      link: "#",
+      link: "https://drive.google.com/file/d/1OPtjFfNKH8v5GI-wlLRTcPRz0C2LQ5TF/view?usp=sharing",
       linkText: "Certificate Link"
     },
     {
