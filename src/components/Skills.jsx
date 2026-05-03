@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 const expertiseData = [
   { category: "UI / UX Design", percentage: 98, color: "bg-pink-400" },
   { category: "Tools", percentage: 92, color: "bg-gray-400" },
-  { category: "Frontend", percentage: 90, color: "bg-accent" },
-  { category: "Backend", percentage: 85, color: "bg-accentPurple" },
-  { category: "Languages", percentage: 80, color: "bg-blue-400" }
+  { category: "Frontend", percentage: 92, color: "bg-accent" },
+  { category: "Backend", percentage: 89, color: "bg-accentPurple" },
+  { category: "Languages", percentage: 91, color: "bg-blue-400" }
 ];
 
 export default function Skills() {
