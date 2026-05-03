@@ -16,8 +16,8 @@ export default function Achievements() {
       subtitle: "Amal Jyothi College of Engineering",
       icon: <Award size={32} className="text-accentPurple" />,
       description: "Successfully competed and won the distinguished award for the 'Best Title Project'. Demonstrated profound problem-solving skills and creative direction spanning the entire software development lifecycle.",
-      link: "", // Placeholder for future link if needed
-      linkText: ""
+      link: "https://drive.google.com/file/d/1Zc3yTqIS62-Tca36jr3-KxjbHGHZr7B3/view?usp=sharing",
+      linkText: "Certificate Link"
     }
   ];
 
